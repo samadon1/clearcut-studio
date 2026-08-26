@@ -1,0 +1,10 @@
+# Keep the Cloud Build upload small; these are rebuilt inside the image.
+.git
+**/__pycache__/
+backend/venv/
+backend/.env
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+*.log
+.DS_Store
